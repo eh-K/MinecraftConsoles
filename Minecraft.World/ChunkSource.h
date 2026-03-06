@@ -13,6 +13,8 @@ class TilePos;
 #define LEVEL_WIDTH_SMALL 64
 #define LEVEL_WIDTH_MEDIUM (3*64)
 #define LEVEL_WIDTH_LARGE (5*64)
+#define LEVEL_WIDTH_INFINITE (29250*64) 
+// Equals 29,952,000. MAX_LEVEL_SIZE in Level.h is 30,000,000
 
 #else
 #define LEVEL_MAX_WIDTH 54
@@ -31,6 +33,7 @@ class TilePos;
 #define HELL_LEVEL_SCALE_SMALL 3
 #define HELL_LEVEL_SCALE_MEDIUM 6
 #define HELL_LEVEL_SCALE_LARGE 8
+#define HELL_LEVEL_SCALE_INFINITE 8 //Not sure if this works.
 
 #else
 #define HELL_LEVEL_MAX_SCALE 3

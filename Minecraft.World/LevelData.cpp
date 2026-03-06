@@ -176,6 +176,7 @@ LevelData::LevelData(CompoundTag *tag)
 	case LEVEL_WIDTH_SMALL:		hostOptionworldSize = e_worldSize_Small;		break;
 	case LEVEL_WIDTH_MEDIUM:	hostOptionworldSize = e_worldSize_Medium;		break;
 	case LEVEL_WIDTH_LARGE:		hostOptionworldSize = e_worldSize_Large;		break;
+	case LEVEL_WIDTH_INFINITE:  hostOptionworldSize = e_worldSize_Infinite;		break;
 	default: assert(0);		break;
 	}
 	app.SetGameHostOption(eGameHostOption_WorldSize, hostOptionworldSize );

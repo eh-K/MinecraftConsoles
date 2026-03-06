@@ -371,7 +371,7 @@ typedef struct _LaunchMoreOptionsMenuInitData
 		bFireSpreads = true;
 		bTNT = true;
 		iPad = -1;
-		worldSize = 3;
+		worldSize = 4;
 		seed = L"";
 		bDisableSaving = false;
 		newWorldSize = e_worldSize_Unknown;
